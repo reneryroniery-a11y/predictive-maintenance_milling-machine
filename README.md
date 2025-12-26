@@ -22,7 +22,7 @@ The final model surpassed the baseline, providing statistical rigor and operatio
 
 | Metric | Performance | Interpretation |
 | :--- | :--- | :--- |
-| **Recall (Classe Falha)** | **81%** | 4 out of 5 potential failures are detected. |
+| **Recall (True Positives)** | **81%** | 4 out of 5 potential failures are detected. |
 | **AUC-ROC** | **0.91** | High capability of differentiating norma operation from failure state|
 | **False Negatives** | Low | Great reduction of unplanned failures risk. |
 

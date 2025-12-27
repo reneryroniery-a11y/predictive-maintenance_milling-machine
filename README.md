@@ -30,6 +30,8 @@ The final model surpassed the baseline, providing statistical rigor and operatio
 The coeficient analysis confirmed the physical hypothesis:
 1. **Torque** is the most critical factor for failure prediction (+8.44 log-odds).
 2. **Temperature Gradient** is more statistically relevant than the absolute temperature.
+3. **Non-linear relationships** revealed through CCPR plots suggests that more flexible models would provide better results
+4. **SMOTE** technique provided good results verified through Cook's distance and Pearson residuals analysis (mean ~ 0 and std ~ 1)
    
 ## 🚀 How to run the code:
 1. Copy the repository.
